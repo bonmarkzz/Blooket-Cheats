@@ -1897,7 +1897,7 @@
                     }
                 },
                 {
-                    name: "Set All MegaBot",
+                    name: "Become Elon Musk",
                     description: "im the master mega bot",
                     run: function () {
                         getStateNode().setState({
@@ -1907,11 +1907,11 @@
                                 class: "🤖",
                                 rarity: "Legendary",
                                 cash: [8e4, 43e4, 42e5, 62e6, 1e9],
-                                time: [0.01, 0.01, 0.01, 0.01, 0.01],
+                                time: [0.001, 0.001, 0.001, 0.001, 0.001],
                                 price: [7e6, 12e7, 19e8, 35e9],
                                 active: false,
                                 level: 4,
-                                bonus: 5.5
+                                bonus: 20
                             }))
                         });
                     }
