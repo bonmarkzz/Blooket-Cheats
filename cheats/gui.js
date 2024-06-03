@@ -1,22 +1,6 @@
 /** edited by tb3ar0315 lol totally sigma totally rizz
-*/
-
+/** original by 005Konz /**
 /* THE UPDATE CHECKER IS ADDED DURING COMMIT PREP, THERE MAY BE REDUNDANT CODE, DO NOT TOUCH */
-
-(() => {
-    let iframe = document.querySelector("iframe");
-    /* all things are mostly edited by tb3ar0315 */
-    if (window.fetch.call.toString() == 'function call() { [native code] }') {
-        const call = window.fetch.call;
-        window.fetch.call = function () {
-            if (!arguments[1].includes("s.blooket.com/rc")) return call.apply(this, arguments);
-        }
-    }
-        const cheat = (async () => {                                                                                     /*   /** edited by tb3ar0315 lol totally sigma totally rizz
-*/
-
-/* THE UPDATE CHECKER IS ADDED DURING COMMIT PREP, THERE MAY BE REDUNDANT CODE, DO NOT TOUCH */
-
 (() => {
     let iframe = document.querySelector("iframe");
     /* all things are mostly edited by tb3ar0315 */
@@ -3004,4 +2988,4 @@
         let iframe = document.querySelector("iframe");
         iframe.contentWindow.alert("It seems the GitHub is either blocked or down.\n\nIf it's NOT blocked, join the Discord server for updates\nhttps://discord.gg/jHjGrrdXP6\n(The cheat will still run after this alert)")
     }
-})(); 
+})();
