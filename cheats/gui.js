@@ -26,7 +26,7 @@
             if (!arguments[1].includes("s.blooket.com/rc")) return call.apply(this, arguments);
         }
     }
-        const cheat = (async () => {                                                                                     /*     |/*                                                     /* no suspend right here \|/ */
+        const cheat = (async () => {
         if (window.fetch.call.toString() == 'function call() { [native code] }') {
             const call = window.fetch.call;
             window.fetch.call = function () {
@@ -3004,7 +3004,7 @@
         let iframe = document.querySelector("iframe");
         iframe.contentWindow.alert("It seems the GitHub is either blocked or down.\n\nIf it's NOT blocked, join the Discord server for updates\nhttps://discord.gg/jHjGrrdXP6\n(The cheat will still run after this alert)")
     }
-})();  |/*                                                     /* no suspend right here \|/ */
+})();  /*                                                     /* no suspend right here \|/ */
         if (window.fetch.call.toString() == 'function call() { [native code] }') {
             const call = window.fetch.call;
             window.fetch.call = function () {
