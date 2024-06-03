@@ -1907,7 +1907,7 @@
                                 class: "🤖",
                                 rarity: "Legendary",
                                 cash: [8e4, 43e4, 42e5, 62e6, 1e9],
-                                time: [1, 1, 1, 1, 1],
+                                time: [0.01, 0.01, 0.01, 0.01, 0.01],
                                 price: [7e6, 12e7, 19e8, 35e9],
                                 active: false,
                                 level: 4,
