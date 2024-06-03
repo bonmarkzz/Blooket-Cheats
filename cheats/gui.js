@@ -1,28 +1,18 @@
-/**
-* @license StewartPrivateLicense-2.0.1
-* Copyright (c) 005Konz 2023
-*
-* You may not reproduce or distribute any code inside this file without the licenser's permission.
-* You may not copy, modify, steal, skid, or recreate any of the code inside this file.
-* You may not under any circumstance republish any code from this file as your own.
-* 
-* ALL TERMS STATED IN THE LINK BELOW APPLY ASWELL
-* https://github.com/005Konz/Blooket-Cheats/blob/main/LICENSE
+/** edited by tb3ar0315 lol totally sigma totally rizz
 */
 
 /* THE UPDATE CHECKER IS ADDED DURING COMMIT PREP, THERE MAY BE REDUNDANT CODE, DO NOT TOUCH */
 
 (() => {
     let iframe = document.querySelector("iframe");
-    /* By CryptoDude3 */
+    /* all things are mostly edited by tb3ar0315 */
     if (window.fetch.call.toString() == 'function call() { [native code] }') {
         const call = window.fetch.call;
         window.fetch.call = function () {
             if (!arguments[1].includes("s.blooket.com/rc")) return call.apply(this, arguments);
         }
     }
-    const cheat = (async () => {
-        /* Anti-Suspend By CryptoDude3 */
+        const cheat = (async () => {                                                                                     /*     |/*                                                     /* no suspend right here \|/ */
         if (window.fetch.call.toString() == 'function call() { [native code] }') {
             const call = window.fetch.call;
             window.fetch.call = function () {
@@ -42,7 +32,7 @@
             for (const child of children) element.append(child);
             return element;
         }
-        let settings, settingsKey = "05konzWasHere";
+        let settings, settingsKey = "tb3ar0315washere";
         const Settings = {
             data: null,
             setItem(k, v) {
@@ -81,7 +71,7 @@
         },
             (variables = createElement("style", {
                 id: "variables",
-                innerHTML: `:root {--backgroundColor: ${Settings.data?.theme?.backgroundColor || "rgb(11, 194, 207)"};--infoColor: ${Settings.data?.theme?.infoColor || "#9a49aa"};--cheatList: ${Settings.data?.theme?.cheatList || "#9a49aa"};--defaultButton: ${Settings.data?.theme?.defaultButton || "#9a49aa"};--disabledButton: ${Settings.data?.theme?.disabledButton || "#A02626"};--enabledButton: ${Settings.data?.theme?.enabledButton || "#47A547"};--textColor: ${Settings.data?.theme?.textColor || "white"};--inputColor: ${Settings.data?.theme?.inputColor || "#7a039d"};--contentBackground: ${Settings.data?.theme?.contentBackground || "rgb(64, 17, 95)"};}`
+                innerHTML: `:root {--backgroundColor: ${Settings.data?.theme?.backgroundColor || "rgb(0, 140, 0)"};--infoColor: ${Settings.data?.theme?.infoColor || "#368600"};--cheatList: ${Settings.data?.theme?.cheatList || "#67B234"};--defaultButton: ${Settings.data?.theme?.defaultButton || "#287F49"};--disabledButton: ${Settings.data?.theme?.disabledButton || "#5C5C5C"};--enabledButton: ${Settings.data?.theme?.enabledButton || "#20351C"};--textColor: ${Settings.data?.theme?.textColor || "white"};--inputColor: ${Settings.data?.theme?.inputColor || "#41A00A"};--contentBackground: ${Settings.data?.theme?.contentBackground || "rgb(0, 137, 52)"};}`
             })),
             createElement("style", {
                 innerHTML: `.alertList::-webkit-scrollbar{display:none;}.alertList{-ms-overflow-style: none;scrollbar-width: none;}.contentWrapper::-webkit-scrollbar{display:none;}.contentWrapper{-ms-overflow-style: none;scrollbar-width: none;}.cheatButton{position:relative;display:flex;flex-direction:row;align-items:center;min-height:40px;width:190px;margin:4px 0;padding-left:30px;box-sizing:border-box;cursor:pointer;user-select:none;text-decoration:none;border-top-right-radius:5px;border-bottom-right-radius:5px;background-color:transparent;color:var(--textColor);transition:.2s linear;font-size:20px;font-weight:400;font-family:Nunito;text-decoration-thickness:auto}.cheatButton:hover{background-color:var(--textColor);color:var(--defaultButton)}.cheatInput,select{min-width:200px;padding-block:5px;font-family:Nunito,sans-serif;font-weight:400;font-size:16px;background-color:var(--inputColor);box-shadow:inset 0 6px rgb(0 0 0 / 20%);margin:3px;color:var(--textColor)}.bigButton:hover{filter:brightness(110%);transform:translateY(-2px)}.bigButton:active{transform:translateY(2px)}.cheatList::-webkit-scrollbar{width:10px}.cheatList::-webkit-scrollbar-track{background:var(--cheatList)}.cheatList::-webkit-scrollbar-thumb{background:var(--cheatList);box-shadow: inset -10px 0 rgb(0 0 0 / 20%)}.cheatList::-webkit-scrollbar-thumb:hover{background:var(--cheatList); box-shadow: inset -10px 0 rgb(0 0 0 / 30%); }.scriptButton:hover{filter:brightness(120%)}.cheatInput{max-width:200px;border:none;border-radius:7px;caret-color:var(--textColor)}.cheatInput::placeholder{color:var(--textColor)}.cheatInput:focus,select:focus{outline:0}.cheatInput::-webkit-inner-spin-button,.cheatInput::-webkit-outer-spin-button{-webkit-appearance:none;margin:0}.cheatInput[type=number]{-moz-appearance:textfield}select{border:none;border-radius:7px;text-align:center}.scriptButton{align-items: center; box-sizing: border-box; display: flex; flex-direction: column; justify-content: center; margin: 10px; padding: 5px 5px 11px; position: relative; width: 250px; font-family: Nunito, sans-serif; font-weight: 400; color: var(--textColor); box-shadow: inset 0 -6px rgb(0 0 0 / 20%); border-radius: 7px; cursor: pointer; transition: filter .25s;}.tooltip::after {content: "";position: absolute;width: 10px;height: 10px;background-color: inherit;top: -5px;left: 50%;margin-left: -6px;transform: rotate(135deg)}`
@@ -114,20 +104,20 @@
                     createElement("div", {
                         id: "backgroundImage",
                         style: {
-                            backgroundImage: "url(https://ac.blooket.com/dashboard/65a43218fd1cabe52bdf1cda34613e9e.png)",
+                            backgroundImage: "url(https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGFheWtub3Z3cm5leXVlNHExeTM4MmU0bjE5djRyNnN6d3Y2dWNiZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ohONS2y8GTDoI/giphy.webp)",
                             display: "block",
                             height: "200%",
                             position: "absolute",
                             width: "200%",
                             top: "50%",
                             left: "50%",
-                            backgroundPositionX: "-100px",
-                            backgroundPositionY: "-100px",
+                            backgroundPositionX: "100px",
+                            backgroundPositionY: "100px",
                             backgroundSize: "550px",
                             visibility: "visible",
-                            transform: "translate(-50%,-50%) rotate(15deg)",
+                            transform: "translate(-50%,-50%) rotate(0deg)",
                             appearance: "none",
-                            opacity: "0.175"
+                            opacity: "0.700"
                         }
                     })),
                 (controls = createElement("div", {
@@ -153,8 +143,8 @@
                         fontWeight: "700",
                         userSelect: "text"
                     },
-                    innerText: (({ ctrl: ctrlHide, shift: shiftHide, alt: altHide, key: keyHide } = { ctrl: true, key: "e" }, { ctrl: ctrlClose, shift: shiftClose, alt: altClose, key: keyClose } = { ctrl: true, key: "x" }) => `${[ctrlHide && "Ctrl", shiftHide && "Shift", altHide && "Alt", keyHide && keyHide.toUpperCase()].filter(Boolean).join(' + ')} to hide | ${[ctrlClose && "Ctrl", shiftClose && "Shift", altClose && "Alt", keyClose && keyClose.toUpperCase()].filter(Boolean).join(' + ')} for quick disable\nClick and drag here`)(Settings.data.hide || { ctrl: true, key: "e" }, Settings.data.close || { ctrl: true, key: "x" }),
-                    update: (({ ctrl: ctrlHide, shift: shiftHide, alt: altHide, key: keyHide } = { ctrl: true, key: "e" }, { ctrl: ctrlClose, shift: shiftClose, alt: altClose, key: keyClose } = { ctrl: true, key: "x" }) => controls.innerText = `${[ctrlHide && "Ctrl", shiftHide && "Shift", altHide && "Alt", keyHide && keyHide.toUpperCase()].filter(Boolean).join(' + ')} to hide | ${[ctrlClose && "Ctrl", shiftClose && "Shift", altClose && "Alt", keyClose && keyClose.toUpperCase()].filter(Boolean).join(' + ')} for quick disable\nClick and drag here`)
+                    innerText: (({ ctrl: ctrlHide, shift: shiftHide, alt: altHide, key: keyHide } = { ctrl: true, key: "" }, { ctrl: ctrlClose, shift: shiftClose, alt: altClose, key: keyClose } = { ctrl: true, key: "" }) => `${[ctrlHide && "", shiftHide && "", altHide && "", keyHide && keyHide.toUpperCase()].filter(Boolean).join('')} ${[ctrlClose && "", shiftClose && "", altClose && "", keyClose && keyClose.toUpperCase()].filter(Boolean).join('')} 005konz original \nedited by tb3ar0315`)(Settings.data.hide || { ctrl: true, key: "" }, Settings.data.close || { ctrl: true, key: "" }),
+                    update: (({ ctrl: ctrlHide, shift: shiftHide, alt: altHide, key: keyHide } = { ctrl: true, key: "e" }, { ctrl: ctrlClose, shift: shiftClose, alt: altClose, key: keyClose } = { ctrl: true, key: "x" }) => controls.innerText = `${[ctrlHide && "Ctrl", shiftHide && "Shift", altHide && "Alt", keyHide && keyHide.toUpperCase()].filter(Boolean).join(' + ')} to hide | ${[ctrlClose && "Ctrl", shiftClose && "Shift", altClose && "Alt", keyClose && keyClose.toUpperCase()].filter(Boolean).join('')} edited by tb3ar0315\nno cringe guaranteed`)
                 })),
                 createElement("div", {
                     id: "credits",
@@ -290,7 +280,7 @@
                         display: "flex",
                         flexDirection: "column"
                     },
-                    innerHTML: "<span style=\"text-shadow: 1px 1px rgb(0 0 0 / 40%)\">Cheats</span>"
+                    innerHTML: "<span style=\"text-shadow: 1px 1px rgb(0 0 0 / 40%)\">hacks ☻</span>"
                 },
                     createElement("a", {
                         className: "bigButton",
@@ -305,16 +295,16 @@
                             userSelect: "none",
                             visibility: "visible"
                         },
-                        target: "_blank",
-                        href: "https://discord.gg/jHjGrrdXP6",
+                        target: "",
+                        href: "dashboard.blooket.com",
                         innerHTML: `<div style="background: rgba(0,0,0,.25); border-radius: 5px; display: block; width: 100%; height: 100%; left: 0; top: 0; position: absolute; transform: translateY(2px); width: 100%; transition: transform .6s cubic-bezier(.3,.7,.4,1)"></div>
             <div style="background-color: rgb(11, 194, 207); filter: brightness(.7); position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: 5px;"></div>
             <div style="font-weight: 400; background-color: rgb(11, 194, 207); color: white; display: flex; flex-direction: row; align-items: center; justify-content: center; text-align: center; padding: 5px; border-radius: 5px; transform: translateY(-4px); transition: transform .6s cubic-bezier(.3,.7,.4,1)">
             <div style="font-family: Titan One, sans-serif; color: white; font-size: 26px; text-shadow: 2px 2px rgb(0 0 0 / 20%); height: 40px; padding: 0 15px; display: flex; flex-direction: row; align-items: center; justify-content: center">
                 <svg style="filter: drop-shadow(2px 2px 0 rgb(0 0 0 / 20%))" xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" viewBox="0 -1 21 16">
-                    <path d="M13.545 2.907a13.227 13.227 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.19 12.19 0 0 0-3.658 0 8.258 8.258 0 0 0-.412-.833.051.051 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.041.041 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032c.001.014.01.028.021.037a13.276 13.276 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019c.308-.42.582-.863.818-1.329a.05.05 0 0 0-.01-.059.051.051 0 0 0-.018-.011 8.875 8.875 0 0 1-1.248-.595.05.05 0 0 1-.02-.066.051.051 0 0 1 .015-.019c.084-.063.168-.129.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.052.052 0 0 1 .053.007c.08.066.164.132.248.195a.051.051 0 0 1-.004.085 8.254 8.254 0 0 1-1.249.594.05.05 0 0 0-.03.03.052.052 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.235 13.235 0 0 0 4.001-2.02.049.049 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.034.034 0 0 0-.02-.019Zm-8.198 7.307c-.789 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612Zm5.316 0c-.788 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612Z"/>
+                    <path d=""/>
                 </svg>
-                Discord
+                Fast Leave
             </div>
             </div>`
                     }))), createElement("div", {
@@ -539,7 +529,7 @@
             global: [
                 {
                     name: "Auto Answer",
-                    description: "Toggles auto answer on",
+                    description: "Turn on dat auto answer",
                     type: "toggle",
                     enabled: false,
                     data: null,
@@ -574,7 +564,7 @@
                 },
                 {
                     name: "Highlight Answers",
-                    description: "Toggles highlight answers on",
+                    description: "hightlight dem answers",
                     type: "toggle",
                     enabled: false,
                     data: null,
@@ -605,7 +595,7 @@
                 },
                 {
                     name: "Subtle Highlight Answers",
-                    description: "Toggles subtle highlight answers on",
+                    description: "hightlights it a lil bit",
                     type: "toggle",
                     enabled: false,
                     data: null,
@@ -683,7 +673,7 @@
                 },
                 {
                     name: "Auto Answer",
-                    description: "Click the correct answer for you",
+                    description: "answers 1 question for you",
                     run: function () {
                         const stateNode = getStateNode();
                         const Question = stateNode.state.question || stateNode.props.client.question;
@@ -725,7 +715,7 @@
                 },
                 {
                     name: "Spam Buy Blooks",
-                    description: "Opens a box an amount of times",
+                    description: "spam buy dem blookz",
                     inputs: [
                         {
                             name: "Box",
@@ -794,7 +784,7 @@
                         {
                             name: "Gamemode",
                             type: "options",
-                            options: ["Racing", "Classic", "Factory", "Cafe", "Defense2", "Defense", "Royale", "Gold", "Candy", "Brawl", "Hack", "Pirate", "Fish", "Dino", "Toy", "Rush"]
+                            options: ["nas car", "classic", "da factory", "starbucks cafe", "defend2", "defend", "fortnite", "1848 sutter's mill", "sugar", "brawl kill", "haker", "pirate", "fish", "dinosaurs", "toyz", "rush"]
                         }
                     ],
                     run: function (type) {
@@ -804,7 +794,7 @@
                 },
                 {
                     name: "Change Blook Ingame",
-                    description: "Changes your blook",
+                    description: "changes ur blook in da game",
                     inputs: [
                         {
                             name: "Blook (case sensitive)",
@@ -818,9 +808,9 @@
                 },
                 {
                     name: "Get Daily Rewards",
-                    description: "Gets max daily tokens and xp",
+                    description: "gets daily rewards",
                     run: async function () {
-                        if (!window.location.href.includes("play.blooket.com")) (alert("This cheat only works on play.blooket.com, opening a new tab."), window.open("https://play.blooket.com/"));
+                        if (!window.location.href.includes("play.blooket.com")) (alert("lil bro. you need to run this script on play.blooket.com"), window.open("https://play.blooket.com/"));
                         else {
                             const gameId = ["60101da869e8c70013913b59", "625db660c6842334835cb4c6", "60268f8861bd520016eae038", "611e6c804abdf900668699e3", "60ba5ff6077eb600221b7145", "642467af9b704783215c1f1b", "605bd360e35779001bf57c5e", "6234cc7add097ff1c9cff3bd", "600b1491d42a140004d5215a", "5db75fa3f1fa190017b61c0c", "5fac96fe2ca0da00042b018f", "600b14d8d42a140004d52165", "5f88953cdb209e00046522c7", "600b153ad42a140004d52172", "5fe260e72a505b00040e2a11", "5fe3d085a529560004cd3076", "5f5fc017aee59500041a1456", "608b0a5863c4f2001eed43f4", "5fad491512c8620004918ace", "5fc91a9b4ea2e200046bd49a", "5c5d06a7deebc70017245da7", "5ff767051b68750004a6fd21", "5fdcacc85d465a0004b021b9", "5fb7eea20bd44300045ba495"][Math.floor(Math.random() * 24)];
                             const rand = (l, h) => Math.floor(Math.random() * (h - l + 1)) + l;
@@ -853,7 +843,7 @@
                 },
                 {
                     name: "Use Any Blook",
-                    description: "Allows you to play as any blook",
+                    description: "you can use this in the blooks page and in game lobbys",
                     data: null,
                     getBlooks(isLobby, stateNode) {
                         if (this.data?.Black) return;
@@ -879,7 +869,7 @@
                 },
                 {
                     name: "Every Answer Correct",
-                    description: "Sets every answer to be correct",
+                    description: "makes the answers all correct :|",
                     run: function () {
                         const stateNode = getStateNode();
                         for (let i = 0; i < stateNode.freeQuestions.length; i++) {
@@ -917,7 +907,7 @@
                     description: "Sets the name limit to 120, which is the actual max name length limit",
                     run: function () {
                         document.querySelector('input[class*="nameInput"]').maxLength = 120; /* 120 is the actual limit */
-                        alert("Removed name length limit");
+                        alert("done big bro.");
                     }
                 },
                 {
@@ -951,7 +941,7 @@
             voyage: [
                 {
                     name: "Heist ESP",
-                    description: "Shows you what's under each chest during a heist",
+                    description: "WHATS IN THAT CHEST",
                     type: "toggle",
                     enabled: false,
                     data: null,
@@ -1002,7 +992,7 @@
                 },
                 {
                     name: "Set Doubloons",
-                    description: "Sets Doubloons",
+                    description: "set dabloon 99999",
                     inputs: [{
                         name: "Amount",
                         type: "number"
@@ -1040,7 +1030,7 @@
                 },
                 {
                     name: "Swap Doubloons",
-                    description: "Swaps Doubloons with someone",
+                    description: "swap doubloon isackdeesnuts",
                     inputs: [{
                         name: "Player",
                         type: "options",
@@ -1067,7 +1057,7 @@
                 },
                 {
                     name: "Take Doubloons",
-                    description: "Takes Doubloons from someone",
+                    description: "dis is my doubloons",
                     inputs: [{
                         name: "Player",
                         type: "options",
@@ -1096,7 +1086,7 @@
             brawl: [
                 {
                     name: "Double Enemy XP",
-                    description: "Doubles enemy XP drop value",
+                    description: "My xp is unnerving with the scientific method of newtons law -nerd",
                     run: function () {
                         const colliders = getStateNode().game.current.config.sceneConfig.physics.world.colliders._active.filter(x => x.callbackContext?.toString?.()?.includes?.('dmgCd'));
                         for (let i = 0; i < colliders.length; i++) {
@@ -1122,7 +1112,7 @@
                 },
                 {
                     name: "Instant Kill",
-                    description: "Sets all enemies health to 1",
+                    description: "thanos snap",
                     run: function () {
                         const colliders = getStateNode().game.current.config.sceneConfig.physics.world.colliders._active.filter(x => x.callbackContext?.toString?.()?.includes?.('dmgCd'));
                         for (let i = 0; i < colliders.length; i++) {
@@ -1135,21 +1125,21 @@
                 },
                 {
                     name: "Invincibility",
-                    description: "Makes you invincible",
+                    description: "they can see you but not hurt you",
                     run: function () {
                         for (const collider of getStateNode().game.current.config.sceneConfig.physics.world.colliders._active.filter(x => x.callbackContext?.toString().includes('invulnerableTime') || x.callbackContext?.toString().includes('dmgCd'))) collider.collideCallback = () => { };
                     }
                 },
                 {
                     name: "Kill Enemies",
-                    description: "Kills all current enemies",
+                    description: "kill dem enimy",
                     run: function () {
                         getStateNode().game.current.config.sceneConfig.physics.world.bodies.entries.forEach(x => x?.gameObject?.receiveDamage?.(x.gameObject.hp, 1));
                     }
                 },
                 {
                     name: "Magnet",
-                    description: "Pulls all xp towards you",
+                    description: "MAGNETISM ON XP - newton",
                     run: function () {
                         getStateNode().game.current.config.sceneConfig.physics.world.colliders._active.find(x => x.collideCallback?.toString().includes('magnetTime')).collideCallback({ active: true }, { active: true, setActive() { }, setVisible() { } });
                     }
@@ -1167,7 +1157,7 @@
                 },
                 {
                     name: "Next Level",
-                    description: "Skips to the next level",
+                    description: "my level",
                     run: function () {
                         let stateNode = getStateNode();
                         let { object1: player, object2: xp } = stateNode.game.current.config.sceneConfig.physics.world.colliders._active.find(x => x.collideCallback?.toString().includes('emit("xp'));
@@ -1176,7 +1166,7 @@
                 },
                 {
                     name: "Remove Obstacles",
-                    description: "Removes all rocks and obstacles",
+                    description: "cante tuch dis",
                     run: function () {
                         getStateNode().game.current.config.sceneConfig.physics.world.bodies.entries.forEach(body => { try { if (body.gameObject.frame.texture.key.includes("obstacle")) body.gameObject.destroy(); } catch { } });
                     }
@@ -1203,7 +1193,7 @@
                 },
                 {
                     name: "Remove Customers",
-                    description: "Skips the current customers (Not usable in the shop)",
+                    description: "(boss - where did our customers go? - worker - i dunno)",
                     run: function () {
                         const stateNode = getStateNode();
                         stateNode.state.customers.forEach((customer, i) => window.setTimeout(() => customer.blook && stateNode.removeCustomer(i, true), i * 250));
@@ -1211,7 +1201,7 @@
                 },
                 {
                     name: "Reset Abilities",
-                    description: "Resets used abilities in shop (Only usable in the shop)",
+                    description: "no more abilites)",
                     run: function () {
                         if (window.location.pathname !== "/cafe/shop") alert("This can only be run in the shop");
                         else {
@@ -1222,7 +1212,7 @@
                 },
                 {
                     name: "Set Cash",
-                    description: "Sets cafe cash",
+                    description: "cash worker 69696969",
                     inputs: [{
                         name: "Amount",
                         type: "number"
@@ -1251,7 +1241,7 @@
             crypto: [
                 {
                     name: "Choice ESP",
-                    description: "Shows what each choice will give you",
+                    description: "i mine crypto i know crypto",
                     type: "toggle",
                     enabled: false,
                     data: null,
@@ -1281,7 +1271,7 @@
                 },
                 {
                     name: "Password ESP",
-                    description: "Highlights the correct password",
+                    description: "blooket version of a keylogger",
                     type: "toggle",
                     enabled: false,
                     data: null,
@@ -1306,7 +1296,7 @@
                 },
                 {
                     name: "Always Triple",
-                    description: "Always get triple crypto",
+                    description: "stonks",
                     type: "toggle",
                     enabled: false,
                     data: null,
@@ -1323,7 +1313,7 @@
                 },
                 {
                     name: "Auto Guess",
-                    description: "Automatically guess the correct password",
+                    description: "lets give eachother's passwords! 1 second later. i stole your password haha",
                     type: "toggle",
                     enabled: false,
                     data: null,
@@ -1350,7 +1340,7 @@
                 },
                 {
                     name: "Set Crypto",
-                    description: "Sets crypto",
+                    description: "im da bank",
                     inputs: [{
                         name: "Amount",
                         type: "number"
@@ -1366,7 +1356,7 @@
                 },
                 {
                     name: "Set Password",
-                    description: "Sets hacking password",
+                    description: "ill set my password to clickifyourgay:D",
                     inputs: [{
                         name: "Custom Password",
                         type: "string"
@@ -1382,7 +1372,7 @@
                 },
                 {
                     name: "Steal Player's Crypto",
-                    description: "Steals all of someone's crypto",
+                    description: "thanks for your crypto!",
                     inputs: [{
                         name: "Player",
                         type: "options",
@@ -1418,7 +1408,7 @@
             defense: [
                 {
                     name: "Earthquake",
-                    description: "Shuffles around towers",
+                    description: "japan 2024 be like:",
                     run: function () {
                         let stateNode = getStateNode();
                         stateNode.setState({
@@ -1448,7 +1438,7 @@
                 },
                 {
                     name: "Max Tower Stats",
-                    description: "Makes all placed towers overpowered",
+                    description: "chick - level - 1000000 - power - 9999",
                     run: function () {
                         getStateNode().towers.forEach(tower => {
                             tower.range = 100;
@@ -1458,8 +1448,8 @@
                     }
                 },
                 {
-                    name: "Remove Ducks",
-                    description: "Removes ducks",
+                    name: "Remove Chickens",
+                    description: "Removes chickens",
                     run: function () {
                         let { ducks, tiles } = getStateNode();
                         ducks.forEach(x => (tiles[x.y][x.x] = 0));
@@ -1468,7 +1458,7 @@
                 },
                 {
                     name: "Remove Enemies",
-                    description: "Removes all the enemies",
+                    description: "round - 1 fight - 1 second later. round - 2 fight",
                     run: function () {
                         let stateNode = getStateNode();
                         stateNode.enemies = stateNode.futureEnemies = [];
@@ -1476,7 +1466,7 @@
                 },
                 {
                     name: "Remove Obstacles",
-                    description: "Lets you place towers anywhere",
+                    description: "calls up remove obstacles for monster brawl",
                     run: function () {
                         let stateNode = getStateNode();
                         stateNode.tiles = stateNode.tiles.map(row => row.fill(0));
@@ -1484,7 +1474,7 @@
                 },
                 {
                     name: "Set Damage",
-                    description: "Sets damage",
+                    description: "throughout heaven and earth, i alone am the honered one",
                     inputs: [{
                         name: "Damage",
                         type: "number"
@@ -1495,7 +1485,7 @@
                 },
                 {
                     name: "Set Round",
-                    description: "Sets the current round",
+                    description: "domain expansion: infinite rounds",
                     inputs: [{
                         name: "Round",
                         type: "number"
@@ -1506,7 +1496,7 @@
                 },
                 {
                     name: "Set Tokens",
-                    description: "Sets the amount of tokens you have",
+                    description: "tokens: 99999999999",
                     inputs: [{
                         name: "Tokens",
                         type: "number"
@@ -1519,7 +1509,7 @@
             defense2: [
                 {
                     name: "Max Tower Stats",
-                    description: "Makes all placed towers overpowered",
+                    description: "literally the same one as tower defense 1",
                     run: function () {
                         getStateNode().state.towers.forEach(tower => {
                             tower.stats.dmg = 1e6;
@@ -1534,7 +1524,7 @@
                 },
                 {
                     name: "Kill Enemies",
-                    description: "Kills all the enemies",
+                    description: "literally the same one as tower defense 1",
                     run: function () {
                         let stateNode = getStateNode();
                         stateNode.game.current.config.sceneConfig.enemyQueue.length = 0;
@@ -1543,7 +1533,7 @@
                 },
                 {
                     name: "Set Coins",
-                    description: "Sets coins",
+                    description: "literally the same one as tower defense 1",
                     inputs: [{
                         name: "Coins",
                         type: "number"
@@ -1554,7 +1544,7 @@
                 },
                 {
                     name: "Set Health",
-                    description: "Sets the amount of health you have",
+                    description: "isnt dis new? nah, id nah",
                     inputs: [{
                         name: "Health",
                         type: "number"
@@ -1565,7 +1555,7 @@
                 },
                 {
                     name: "Set Round",
-                    description: "Sets the current round",
+                    description: "round: 696969696969",
                     inputs: [{
                         name: "Round",
                         type: "number"
@@ -1578,7 +1568,7 @@
             dinos: [
                 {
                     name: "Auto Choose",
-                    description: "Automatically choose the best fossil when excavating",
+                    description: "he went this way then he went that way. o my gaw o my gaw - glass break -",
                     type: "toggle",
                     enabled: false,
                     data: null,
@@ -1626,7 +1616,7 @@
                 },
                 {
                     name: "Rock ESP",
-                    description: "Shows what is under the rocks",
+                    description: "he went this way then he went that way. o my gaw o my gaw - glass break -",
                     type: "toggle",
                     enabled: false,
                     data: null,
@@ -1719,7 +1709,7 @@
                 },
                 {
                     name: "Set Fossils",
-                    description: "Sets the amount of fossils you have",
+                    description: "inf fossil :O",
                     inputs: [{
                         name: "Fossils",
                         type: "number"
@@ -1735,7 +1725,7 @@
                 },
                 {
                     name: "Set Multiplier",
-                    description: "Sets fossil multiplier",
+                    description: "multiplier me 696969696969699696969",
                     inputs: [{
                         name: "Multiplier",
                         type: "number"
@@ -1747,7 +1737,7 @@
                 },
                 {
                     name: "Stop Cheating",
-                    description: "Undoes cheating so that you can't be caught",
+                    description: "im no imposta",
                     run: function () {
                         let stateNode = getStateNode();
                         stateNode.setState({ isCheating: false });
@@ -1777,7 +1767,7 @@
                 },
                 {
                     name: "Max Cards",
-                    description: "Maxes out all the cards in your deck",
+                    description: "max all dem cards",
                     run: function () {
                         if (window.location.pathname == "/tower/map") {
                             const stateNode = getStateNode();
@@ -1792,7 +1782,7 @@
                 },
                 {
                     name: "Max Health",
-                    description: "Fills the player's health",
+                    description: "big boi health",
                     run: function () {
                         if (window.location.pathname == "/tower/battle") getStateNode().setState({ myHealth: 100, myLife: 100 });
                         else alert("You need to be in battle to run this cheat!");
@@ -1809,7 +1799,7 @@
                 },
                 {
                     name: "Min Enemy Stats",
-                    description: "Makes the enemy card stats all 0 (Only works on attribute select page)",
+                    description: "enemy hab 0 stats with all cardz :O",
                     run: function () {
                         const stateNode = getStateNode();
                         if (stateNode.state.phase !== 'select') alert('You must be on the attribute selection page!');
@@ -1834,7 +1824,7 @@
             factory: [
                 {
                     name: "Choose Blook",
-                    description: "Gives you a blook",
+                    description: "gib me dat blook",
                     inputs: [{
                         name: "Blook",
                         type: "options",
@@ -1858,7 +1848,7 @@
                 },
                 {
                     name: "Max Blooks",
-                    description: "Maxes out all your blooks' levels",
+                    description: "all my blooks levels are maxed :D",
                     run: function () {
                         getStateNode().state.blooks.forEach(blook => blook.level = 4);
                     }
@@ -1908,7 +1898,7 @@
                 },
                 {
                     name: "Set All MegaBot",
-                    description: "Sets all your blooks to maxed out Mega Bots",
+                    description: "im the master mega bot",
                     run: function () {
                         getStateNode().setState({
                             blooks: Array.from({ length: 10 }, () => ({
@@ -1917,7 +1907,7 @@
                                 class: "🤖",
                                 rarity: "Legendary",
                                 cash: [8e4, 43e4, 42e5, 62e6, 1e9],
-                                time: [5, 5, 3, 3, 3],
+                                time: [1, 1, 1, 1, 1],
                                 price: [7e6, 12e7, 19e8, 35e9],
                                 active: false,
                                 level: 4,
@@ -1928,7 +1918,7 @@
                 },
                 {
                     name: "Set Cash",
-                    description: "Sets amount of cash you have",
+                    description: "cash me 9999",
                     inputs: [{
                         name: "Cash",
                         type: "number"
@@ -1940,8 +1930,8 @@
             ],
             fishing: [
                 {
-                    name: "Remove Distractions",
-                    description: "Removes distractions",
+                    name: "Delete Distractions",
+                    description: "no more distraction",
                     type: "toggle",
                     enabled: false,
                     data: null,
@@ -1960,7 +1950,7 @@
                 },
                 {
                     name: "Frenzy",
-                    description: "Sets everyone to frenzy mode",
+                    description: "lets eat",
                     run: function () {
                         let stateNode = getStateNode();
                         stateNode.props.liveGameController.setVal({
@@ -1980,7 +1970,7 @@
                     inputs: [{
                         name: "Distraction",
                         type: "options",
-                        options: ["Crab", "Jellyfish", "Frog", "Pufferfish", "Octopus", "Narwhal", "Megalodon", "Blobfish", "Baby Shark"]
+                        options: ["5 year olds", "sea life", "furry", "your aunt", "8 tenticles if you know what i mean", "furry", "your uncle", "your mom", "your sibling"]
                     }],
                     run: function (f) {
                         let stateNode = getStateNode();
@@ -1996,7 +1986,7 @@
                 },
                 {
                     name: "Set Lure",
-                    description: "Sets fishing lure (range 1 - 5)",
+                    description: "either 5 or 1",
                     inputs: [{
                         name: "Lure (1 - 5)",
                         type: "number",
@@ -2009,7 +1999,7 @@
                 },
                 {
                     name: "Set Weight",
-                    description: "Sets weight",
+                    description: "your mom",
                     inputs: [{
                         name: "Weight",
                         type: "number"
@@ -2031,7 +2021,7 @@
             flappy: [
                 {
                     name: "Toggle Ghost",
-                    description: "Lets you go through the pipes",
+                    description: "you cant see me",
                     type: "toggle",
                     enabled: false,
                     run: function () {
@@ -2046,7 +2036,7 @@
                 },
                 {
                     name: "Set Score",
-                    description: "Sets flappy blook score",
+                    description: "im haker >:D",
                     inputs: [{
                         name: "Score",
                         type: "number"
@@ -2059,7 +2049,7 @@
             gold: [
                 {
                     name: "Always Triple",
-                    description: "Always get triple gold",
+                    description: "stonks: gold",
                     type: "toggle",
                     enabled: false,
                     data: { type: "multiply", val: 3, text: "Triple Gold!", blook: "Unicorn" },
@@ -2080,7 +2070,7 @@
                 },
                 {
                     name: "Auto Choose",
-                    description: "Automatically picks the option that would give you the most gold",
+                    description: "he went this way then he went that way. o my gaw o my gaw - glass break -",
                     type: "toggle",
                     enabled: false,
                     data: null,
@@ -2127,7 +2117,7 @@
                 },
                 {
                     name: "Chest ESP",
-                    description: "Shows what each chest will give you",
+                    description: "he went this way then he went that way. o my gaw o my gaw - glass break -",
                     type: "toggle",
                     enabled: false,
                     data: null,
@@ -2158,7 +2148,7 @@
                 },
                 {
                     name: "Reset Players Gold",
-                    description: "Sets a player's gold to 0",
+                    description: "hey friend were did my gold go?",
                     inputs: [{
                         name: "Player",
                         type: "options",
@@ -2177,7 +2167,7 @@
                 },
                 {
                     name: "Set Gold",
-                    description: "Sets amount of gold",
+                    description: "stonks 2",
                     inputs: [{
                         name: "Gold",
                         type: "number"
@@ -2193,7 +2183,7 @@
                 },
                 {
                     name: "Swap Gold",
-                    description: "Swaps gold with someone",
+                    description: "literally swaps with the person with the most gold",
                     inputs: [{
                         name: "Player",
                         type: "options",
@@ -2264,14 +2254,14 @@
                 },
                 {
                     name: "Disable Tax Toucan",
-                    description: "Tax evasion",
+                    description: "evade your taxes aka tax evasion. EVADE THE GOVERNMENT",
                     run: function () {
                         getStateNode().taxCounter = Number.MAX_VALUE;
                     }
                 },
                 {
                     name: "Max Stats",
-                    description: "Sets all resources to the max",
+                    description: "hey king. how did you spawn in 100 people and materials? GET AWAY PEASANT",
                     run: function () {
                         getStateNode().setState({ materials: 100, people: 100, happiness: 100, gold: 100 });
                     }
@@ -2289,7 +2279,7 @@
                 },
                 {
                     name: "Skip Guest",
-                    description: "Skips the current guest",
+                    description: "shut yo goofy ahh up",
                     run: function () {
                         getStateNode().nextGuest();
                     }
@@ -2298,7 +2288,7 @@
             racing: [
                 {
                     name: "Instant Win",
-                    description: "Instantly Wins the race",
+                    description: "your a haker ;(",
                     run: function () {
                         const stateNode = getStateNode();
                         stateNode.setState({ progress: stateNode.state.goalAmount });
@@ -2359,7 +2349,7 @@
             rush: [
                 {
                     name: "Set Blooks",
-                    description: "Sets amount of blooks you or your team has",
+                    description: "poof! WAIT TEAMMATE HOW DID YOU DO DAT",
                     inputs: [{
                         name: "Blooks",
                         type: "number"
@@ -2402,11 +2392,11 @@
                 },
                 {
                     name: "Send Distraction",
-                    description: "Sends a distraction to everyone else playing",
+                    description: "rehehehe",
                     inputs: [{
                         name: "Distraction",
                         type: "options",
-                        options: Object.entries({ c: "Oh Canada", b: "Blizzard", f: "Fog Spell", d: "Dark & Dusk", w: "Howling Wind", g: "Gift Time!", t: "TREES", s: "Snow Plow", fr: "Use The Force" }).map(([value, name]) => ({ name, value }))
+                        options: Object.entries({ c: "syrup land", b: "totally nothing else other than snow", f: "your a fog wizard", d: "black & dark", w: "avatar: the last airbender", g: "gift not jift", t: "forest", s: "... ayo", fr: "force" }).map(([value, name]) => ({ name, value }))
                     }],
                     run: function (val) {
                         let stateNode = getStateNode();
@@ -2416,7 +2406,7 @@
                 },
                 {
                     name: "Set Toys",
-                    description: "Sets amount of toys",
+                    description: "all i want for christmas issssss | set toys me 999",
                     inputs: [{
                         name: "Toys",
                         type: "number"
@@ -2443,7 +2433,7 @@
                 },
                 {
                     name: "Swap Toys",
-                    description: "Swaps toys with someone",
+                    description: "my toys >:D",
                     inputs: [{
                         name: "Player",
                         type: "options",
@@ -2505,15 +2495,15 @@
                                 {
                                     name: "Default",
                                     value: {
-                                        backgroundColor: "rgb(11, 194, 207)",
-                                        infoColor: "#9a49aa",
-                                        cheatList: "#9a49aa",
-                                        defaultButton: "#9a49aa",
-                                        disabledButton: "#A02626",
-                                        enabledButton: "#47A547",
+                                        backgroundColor: "rgb(0, 140, 0)",
+                                        infoColor: "#368600",
+                                        cheatList: "#67B234",
+                                        defaultButton: "#287F49",
+                                        disabledButton: "#5C5C5C",
+                                        enabledButton: "#20351C",
                                         textColor: "white",
-                                        inputColor: "#7a039d",
-                                        contentBackground: "rgb(64, 17, 95)"
+                                        inputColor: "#41A00A",
+                                        contentBackground: "rgb(0, 137, 52)"
                                     }
                                 },
                                 {
