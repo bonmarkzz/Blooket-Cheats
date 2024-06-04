@@ -115,7 +115,7 @@
                             visibility: "visible",
                             transform: "translate(-50%,-50%) rotate(0deg)",
                             appearance: "none",
-                            opacity: "0.700"
+                            opacity: "0.750"
                         }
                     })),
                 (controls = createElement("div", {
@@ -139,8 +139,7 @@
                         color: "var(--textColor)",
                         fontFamily: "Nunito, sans-serif",
                         fontWeight: "700",
-                        userSelect: "text"
-                    },
+                        userSelect: "text"                                                                           },
                     innerText: (({ ctrl: ctrlHide, shift: shiftHide, alt: altHide, key: keyHide } = { ctrl: true, key: "" }, { ctrl: ctrlClose, shift: shiftClose, alt: altClose, key: keyClose } = { ctrl: true, key: "" }) => `${[ctrlHide && "", shiftHide && "", altHide && "", keyHide && keyHide.toUpperCase()].filter(Boolean).join('')} ${[ctrlClose && "", shiftClose && "", altClose && "", keyClose && keyClose.toUpperCase()].filter(Boolean).join('')} 005konz original \nedited by tb3ar0315`)(Settings.data.hide || { ctrl: true, key: "" }, Settings.data.close || { ctrl: true, key: "" }),
                     update: (({ ctrl: ctrlHide, shift: shiftHide, alt: altHide, key: keyHide } = { ctrl: true, key: "e" }, { ctrl: ctrlClose, shift: shiftClose, alt: altClose, key: keyClose } = { ctrl: true, key: "x" }) => controls.innerText = `${[ctrlHide && "Ctrl", shiftHide && "Shift", altHide && "Alt", keyHide && keyHide.toUpperCase()].filter(Boolean).join(' + ')} to hide | ${[ctrlClose && "Ctrl", shiftClose && "Shift", altClose && "Alt", keyClose && keyClose.toUpperCase()].filter(Boolean).join('')} edited by tb3ar0315\nno cringe guaranteed`)
                 })),
@@ -164,8 +163,7 @@
                         color: "var(--textColor)",
                         fontFamily: "Nunito, sans-serif",
                         fontWeight: "700",
-                        userSelect: "text"
-                    },
+                         userSelect: "text"                                                                    },
                     innerHTML: "GitHub - 005Konz",
                     onclick: () => window.open("https://github.com/005Konz/Blooket-Cheats", "_blank").focus()
                 }),
@@ -271,14 +269,14 @@
                         color: "var(--textColor)",
                         fontSize: "40px",
                         textAlign: "center",
-                        paddingTop: "20px",
+                        paddingTop: "50px",
                         userSelect: "none",
-                        padding: "20px 10px 20px 0",
+                        padding: "20px 10px 20px 0px",
                         boxSizing: "border-box",
                         display: "flex",
                         flexDirection: "column"
                     },
-                    innerHTML: "<span style=\"text-shadow: 1px 1px rgb(0 0 0 / 40%)\">hacks ☻</span>"
+                    innerHTML: "<span style=\"text-shadow: 2px 1px rgb(0 140 0 / 40%)\">hacks ☻</span>"
                 },
                     createElement("a", {
                         className: "bigButton",
