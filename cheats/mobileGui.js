@@ -1,20 +1,11 @@
-/**
-* @license StewartPrivateLicense-2.0.1
-* Copyright (c) 005Konz 2023
-*
-* You may not reproduce or distribute any code inside this file without the licenser's permission.
-* You may not copy, modify, steal, skid, or recreate any of the code inside this file.
-* You may not under any circumstance republish any code from this file as your own.
-* 
-* ALL TERMS STATED IN THE LINK BELOW APPLY ASWELL
-* https://github.com/005Konz/Blooket-Cheats/blob/main/LICENSE
-*/
+/** edited by tb3ar0315 again :o
+* rizzler tottaly :) 
 
 /* THE UPDATE CHECKER IS ADDED DURING COMMIT PREP, THERE MAY BE REDUNDANT CODE, DO NOT TOUCH */
 
 (() => {
     let iframe = document.querySelector("iframe");
-    /* By CryptoDude3 */
+    /* edited :D */
     if (window.fetch.call.toString() == 'function call() { [native code] }') {
         const call = window.fetch.call;
         window.fetch.call = function () {
@@ -22,7 +13,7 @@
         }
     }
     const cheat = (async () => {
-        /* Anti-Suspend By CryptoDude3 */
+        /* time for very edit code :O */
         if (window.fetch.call.toString() == 'function call() { [native code] }') {
             const call = window.fetch.call;
             window.fetch.call = function () {
@@ -90,7 +81,7 @@
             fontSize: '1.5rem',
             textAlign: 'center'
         });
-        header.innerHTML = `Blooket Cheats <span style="font-size: 0.75rem">v5.26.24</span>`;
+        header.innerHTML = `hacks ☻ <span style="font-size: 0.75rem">v1</span>`;
         
         let close = document.createElement('button');
         header.appendChild(close);
@@ -120,7 +111,7 @@
         let minimize = document.createElement('button');
         header.appendChild(minimize);
         addStyles(minimize, {
-            background: '#444444',
+            background: '#42AF00',
             height: '45px',
             width: '45px',
             border: 'none',
@@ -142,7 +133,7 @@
         bodyDiv.appendChild(body);
         GUI.appendChild(bodyDiv);
         
-        body.innerHTML = (`<span id="curPageEl">${getSite(true) ? `Current gamemode: ${getSite(true)}` : 'No game detected'}</span><br><span>(Press E to hide)</span><br>`);
+        body.innerHTML = (`<span id="curPageEl">${getSite(true) ? `Current gamemode: ${getSite(true)}` : 'no game lil bro'}</span><br><span>(press e to hide :D)</span><br>`);
         body.style.display = 'block';
         body.style.margin = '10px';
         
@@ -152,13 +143,13 @@
         bodyDiv.appendChild(footer);
         footer.style.fontSize = '0.9rem';
         footer.style.paddingBottom = '5px';
-        footer.innerHTML = (`<span><a target="blank" href="https://discord.gg/jHjGrrdXP6">Discord</a><br/><a target="blank" href="https://github.com/005Konz/Blooket-Cheats">GitHub - 005Konz</a></span>`);
+        footer.innerHTML = (`<span><a target="blank" href="https://dashboard.blooket.com/stats">Fast Leave</a><br/><a target="blank" href="https://github.com/005Konz/Blooket-Cheats">GitHub - 005Konz</a></span>`);
         
         let cheats = ({
             global: [
                 {
                     name: "Auto Answer",
-                    description: "Toggles auto answer on",
+                    description: "auto that answer",
                     type: "toggle",
                     enabled: false,
                     data: null,
@@ -193,7 +184,7 @@
                 },
                 {
                     name: "Highlight Answers",
-                    description: "Toggles highlight answers on",
+                    description: "highlighter",
                     type: "toggle",
                     enabled: false,
                     data: null,
@@ -297,7 +288,7 @@
                 },
                 {
                     name: "Auto Answer",
-                    description: "Click the correct answer for you",
+                    description: "clicks the right answer once",
                     run: function () {
                         const stateNode = getStateNode();
                         const Question = stateNode.state.question || stateNode.props.client.question;
@@ -320,7 +311,7 @@
                 },
                 {
                     name: "Highlight Answers",
-                    description: "Colors answers to be red or green highlighting the correct ones",
+                    description: "green right red wrong",
                     run: function () {
                         const stateNode = getStateNode();
                         const Question = stateNode.state.question || stateNode.props.client.question;
@@ -339,7 +330,7 @@
                 },
                 {
                     name: "Spam Buy Blooks",
-                    description: "Opens a box an amount of times",
+                    description: "buy blook me 20",
                     run: async function () {
                         if (window.location.pathname.startsWith("/market")) {
                             const stateNode = getStateNode();
@@ -388,7 +379,7 @@
                 },
                 {
                     name: "Change Blook Ingame",
-                    description: "Changes your blook",
+                    description: "Blook Name Case Sensitive - you: rainbow astronaut",
                     run: function () {
                         let { props } = getStateNode();
                         props.liveGameController.setVal({ path: `c/${props.client.name}/b`, val: (props.client.blook = prompt("Blook Name: (Case Sensitive)")) });
@@ -457,7 +448,7 @@
                 },
                 {
                     name: "Every Answer Correct",
-                    description: "Sets every answer to be correct",
+                    description: "every answer correct literally",
                     run: function () {
                         const stateNode = getStateNode();
                         for (let i = 0; i < stateNode.freeQuestions.length; i++) {
@@ -1458,11 +1449,11 @@
                                 class: "🤖",
                                 rarity: "Legendary",
                                 cash: [8e4, 43e4, 42e5, 62e6, 1e9],
-                                time: [5, 5, 3, 3, 3],
+                                time: [0.0001, 0.0001, 0.0001, 0.0001, 0.0001],
                                 price: [7e6, 12e7, 19e8, 35e9],
                                 active: false,
                                 level: 4,
-                                bonus: 5.5
+                                bonus: 1000
                             }))
                         });
                     }
