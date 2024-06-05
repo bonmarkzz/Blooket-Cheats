@@ -1894,7 +1894,7 @@
                 },
                 {
                     name: "Set All MegaBot",
-                    description: "im the master mega bot",
+                    description: "mega musk (elon musk)",
                     run: function () {
                         getStateNode().setState({
                             blooks: Array.from({ length: 10 }, () => ({
@@ -1907,7 +1907,7 @@
                                 price: [7e6, 12e7, 19e8, 35e9],
                                 active: false,
                                 level: 4,
-                                bonus: 20
+                                bonus: 5000
                             }))
                         });
                     }
